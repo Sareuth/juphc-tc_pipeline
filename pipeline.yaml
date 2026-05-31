@@ -48,6 +48,8 @@ spec:
       workspaces:
         - name: source
           workspace: pipeline-workspace
+        - name: dockerconfig
+          workspace: dockerconfig-ws
       taskRef:
         name: jasmine
       runAfter:
